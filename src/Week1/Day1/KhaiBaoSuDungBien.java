@@ -1,4 +1,4 @@
-package Day1;
+package Week1.Day1;
 
 public class KhaiBaoSuDungBien {
     public static void main(String[] args) {
