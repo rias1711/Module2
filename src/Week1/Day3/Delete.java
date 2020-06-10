@@ -14,7 +14,7 @@ public class Delete {
         int[] result = delArr(arr, num);
 
         for (int i = 0; i < result.length; i++) {
-            System.out.println(result[i]);
+            System.out.print(result[i]+ " ");
         }
     }
     public static int[] delArr(int[] array, int x) {
