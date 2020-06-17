@@ -1,6 +1,8 @@
 package Week2.Day1;
 
-public class Square extends Rectangle {
+import Week2.Day2.BT2.Colorable;
+
+public class Square extends Rectangle implements Colorable {
     public Square() {}
 
     public Square(double side) {
@@ -31,6 +33,11 @@ public class Square extends Rectangle {
     @Override
     public String toString() {
         return "A Square with size = " + getSide() + ", which is a subclass of " + super.toString();
+    }
+
+    @Override
+    public String howToColor() {
+        return "Color all four sides";
     }
 
     public static void main(String[] args) {
